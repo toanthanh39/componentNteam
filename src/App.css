@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  color: "white" !important;
 }
 
 .App-logo {
@@ -35,4 +39,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  border: 1px solid black;
+}
+.box {
+  width: 50px;
+  height: 50px;
+  background-color: pink;
+  position: absolute;
+  bottom: 1rem;
+  right: 2rem;
+  cursor: move;
+}
+#item {
+  width: "100%";
+  background-color: "#57575d";
+  border-radius: "4px";
+  cursor: "pointer";
+  height: "70px";
+  background-color: red;
+}
+#wrapper_item {
+  height: 100%;
 }
